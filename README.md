@@ -7,3 +7,5 @@ Two methods are implemented:
 
 A conservative approach is to take the minimum value returned by both methods.
 
+![EntropyCalc screenshot on Windows](https://i.imgur.com/DlNNOkj.png)
+
