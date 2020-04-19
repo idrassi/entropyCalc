@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e820c070-a4cd-4dcd-8825-899eb3aa24f7}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b97695e8-dfb7-4067-ade2-5278e111e5f8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{b460176c-b851-4dc5-9d8d-a0ad4dbe1765}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="Source Files\zlib">
+      <UniqueIdentifier>{1e478ff8-29da-4141-a8fe-2b1fa36d38d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zlibComplete">
+      <UniqueIdentifier>{fc1c55e3-87a1-40e8-a31e-e0dbe92949c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zlibComplete\zlc">
+      <UniqueIdentifier>{5b494b94-5cb4-4f42-a027-01a70160ebf4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="entropyCalc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="maindlg.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\adler32.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\compress.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\crc32.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\deflate.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\gzclose.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\gzlib.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\gzread.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\gzwrite.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\infback.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\inffast.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\inflate.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\inftrees.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\trees.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\uncompr.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\zutil.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibComplete\gzipcomplete.cpp">
+      <Filter>Source Files\zlibComplete</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibComplete\raw.cpp">
+      <Filter>Source Files\zlibComplete</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibComplete\zlibmisc.cpp">
+      <Filter>Source Files\zlibComplete</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibComplete\zlibtop.cpp">
+      <Filter>Source Files\zlibComplete</Filter>
+    </ClCompile>
+    <ClCompile Include="..\entropy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\crc32.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\deflate.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\gzguts.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inffast.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inffixed.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inflate.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inftrees.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\trees.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\zconf.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\zlib.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\zutil.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibComplete\zlc\gzipcomplete.hpp">
+      <Filter>Source Files\zlibComplete\zlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibComplete\zlc\zlibbase.hpp">
+      <Filter>Source Files\zlibComplete\zlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibComplete\zlc\zlibcomplete.hpp">
+      <Filter>Source Files\zlibComplete\zlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibComplete\zlc\zlibmisc.hpp">
+      <Filter>Source Files\zlibComplete\zlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibComplete\zlc\zlibraw.hpp">
+      <Filter>Source Files\zlibComplete\zlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\entropy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="entropyCalc.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\entropyCalc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\zlib\README">
+      <Filter>Source Files\zlib</Filter>
+    </None>
+  </ItemGroup>
+</Project>
