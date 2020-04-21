@@ -22,6 +22,9 @@
     <Filter Include="Source Files\zlibComplete\zlc">
       <UniqueIdentifier>{5b494b94-5cb4-4f42-a027-01a70160ebf4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\lzma">
+      <UniqueIdentifier>{0e3b742c-d683-4a9b-9699-d6f2247afc3e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -93,6 +96,21 @@
     <ClCompile Include="..\entropy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\lzma\Alloc.c">
+      <Filter>Source Files\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lzma\LzmaEnc.c">
+      <Filter>Source Files\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lzma\Threads.c">
+      <Filter>Source Files\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lzma\LzFind.c">
+      <Filter>Source Files\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lzma\LzFindMt.c">
+      <Filter>Source Files\lzma</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -154,6 +172,33 @@
     </ClInclude>
     <ClInclude Include="..\entropy.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lzma\7zTypes.h">
+      <Filter>Source Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lzma\Alloc.h">
+      <Filter>Source Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lzma\LzmaEnc.h">
+      <Filter>Source Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lzma\Threads.h">
+      <Filter>Source Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lzma\Compiler.h">
+      <Filter>Source Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lzma\Precomp.h">
+      <Filter>Source Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lzma\LzFind.h">
+      <Filter>Source Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lzma\LzFindMt.h">
+      <Filter>Source Files\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lzma\LzHash.h">
+      <Filter>Source Files\lzma</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

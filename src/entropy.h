@@ -32,7 +32,15 @@ SOFTWARE.
 extern "C" {
 #endif
 
-double ComputeShannonEntropy (FILE* f, long long flen, int useCompression);
+typedef enum
+{
+	ENT_METH_FREQ = 0,
+	ENT_METH_GZIP,
+	ENT_METH_LZMA,
+	ENT_METH_MIN_ALL
+} eEntropyMethod;
+
+double ComputeShannonEntropy (FILE* f, eEntropyMethod meth);
 
 #ifdef __cplusplus
 }

@@ -75,6 +75,8 @@ public:
 		m_list.Attach (GetDlgItem (IDC_LIST));
 		m_list.AddString (L"Bytes Frequency");
 		m_list.AddString (L"GZip Compression");
+		m_list.AddString(L"LZMA Compression");
+		m_list.AddString(L"Minimum of all methods");
 		m_list.SetCurSel (0);
 
 		// set icons

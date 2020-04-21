@@ -53,20 +53,21 @@ END
 // remains consistent on all systems.
 IDR_MAINFRAME           ICON                    "res\\entropyCalc.ico"
 
+
 /////////////////////////////////////////////////////////////////////////////
 //
 // Dialog
 //
 
-IDD_MAINDLG DIALOGEX 0, 0, 280, 83
+IDD_MAINDLG DIALOGEX 0, 0, 301, 83
 STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
-CAPTION "File Entropy Calculator - Mounir IDRASSI @IDRIX"
+CAPTION "File Entropy Calculator - Mounir IDRASSI@IDRIX"
 FONT 8, "MS Shell Dlg", 0, 0, 0x0
 BEGIN
     LTEXT           "File Path:",IDC_STATIC,10,12,32,8
-    EDITTEXT        IDC_PATH,46,9,174,14,ES_AUTOHSCROLL
-    PUSHBUTTON      "Browse",IDC_BROWSE,223,9,50,14
-    PUSHBUTTON      "Compute",IDC_COMPUTE,223,27,50,14
+    EDITTEXT        IDC_PATH,46,9,193,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_BROWSE,244,9,50,14
+    PUSHBUTTON      "Compute",IDC_COMPUTE,244,27,50,14
     LTEXT           "Entropy: ",IDC_STATIC,10,50,31,8
     EDITTEXT        IDC_ENTROPY,46,47,45,14,ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY
     LTEXT           "bits per byte",IDC_STATIC,95,50,42,8
@@ -87,7 +88,7 @@ BEGIN
     IDD_MAINDLG, DIALOG
     BEGIN
         LEFTMARGIN, 7
-        RIGHTMARGIN, 273
+        RIGHTMARGIN, 294
         TOPMARGIN, 7
         BOTTOMMARGIN, 76
     END
@@ -101,8 +102,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,0,0,1
- PRODUCTVERSION 1,0,0,1
+ FILEVERSION 1,1,0,1
+ PRODUCTVERSION 1,1,0,1
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -119,18 +120,29 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "IDRIX"
             VALUE "FileDescription", "Entropy Calculator For Files"
-            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "FileVersion", "1.1.0.1"
             VALUE "InternalName", "entropyCalc"
             VALUE "LegalCopyright", "Copyright 2020 Mounir IDRASSI"
             VALUE "OriginalFilename", "entropyCalc.exe"
             VALUE "ProductName", "entropyCalc "
-            VALUE "ProductVersion", "1, 0, 0, 1"
+            VALUE "ProductVersion", "1.1.0.1"
         END
     END
     BLOCK "VarFileInfo"
     BEGIN
         VALUE "Translation", 0x409, 1200
     END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAINDLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
 END
 
 

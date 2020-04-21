@@ -1,20 +1,34 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "entropyCalc", "entropyCalc.vcxproj", "{ECF0B6D9-733B-4256-97D0-260F62AB9087}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
 		Release|Win32 = Release|Win32
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECF0B6D9-733B-4256-97D0-260F62AB9087}.Debug|ARM.ActiveCfg = Debug|ARM
+		{ECF0B6D9-733B-4256-97D0-260F62AB9087}.Debug|ARM.Build.0 = Debug|ARM
+		{ECF0B6D9-733B-4256-97D0-260F62AB9087}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{ECF0B6D9-733B-4256-97D0-260F62AB9087}.Debug|ARM64.Build.0 = Debug|ARM64
 		{ECF0B6D9-733B-4256-97D0-260F62AB9087}.Debug|Win32.ActiveCfg = Debug|Win32
 		{ECF0B6D9-733B-4256-97D0-260F62AB9087}.Debug|Win32.Build.0 = Debug|Win32
 		{ECF0B6D9-733B-4256-97D0-260F62AB9087}.Debug|x64.ActiveCfg = Debug|x64
 		{ECF0B6D9-733B-4256-97D0-260F62AB9087}.Debug|x64.Build.0 = Debug|x64
+		{ECF0B6D9-733B-4256-97D0-260F62AB9087}.Release|ARM.ActiveCfg = Release|ARM
+		{ECF0B6D9-733B-4256-97D0-260F62AB9087}.Release|ARM.Build.0 = Release|ARM
+		{ECF0B6D9-733B-4256-97D0-260F62AB9087}.Release|ARM64.ActiveCfg = Release|ARM64
+		{ECF0B6D9-733B-4256-97D0-260F62AB9087}.Release|ARM64.Build.0 = Release|ARM64
 		{ECF0B6D9-733B-4256-97D0-260F62AB9087}.Release|Win32.ActiveCfg = Release|Win32
 		{ECF0B6D9-733B-4256-97D0-260F62AB9087}.Release|Win32.Build.0 = Release|Win32
 		{ECF0B6D9-733B-4256-97D0-260F62AB9087}.Release|x64.ActiveCfg = Release|x64
@@ -22,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {668859F4-1936-4733-AF3D-CDBEACE63792}
 	EndGlobalSection
 EndGlobal

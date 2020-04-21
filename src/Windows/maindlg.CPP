@@ -84,8 +84,17 @@ LRESULT CMainDlg::OnBnClickedCompute(WORD /*wNotifyCode*/, WORD /*wID*/, HWND /*
 		{
 			CWaitCursor busy;
 			WCHAR szEntropy[32];
+			eEntropyMethod meth;
 
-			double e = ComputeShannonEntropy (f, flen, m_list.GetCurSel() == 1);
+			switch (m_list.GetCurSel())
+			{
+			case 1: meth = ENT_METH_GZIP; break;
+			case 2: meth = ENT_METH_LZMA; break;
+			case 3: meth = ENT_METH_MIN_ALL; break;
+			default: meth = ENT_METH_FREQ; break;
+			}
+
+			double e = ComputeShannonEntropy (f, meth);
 			
 			StringCbPrintfW (szEntropy, sizeof (szEntropy), L"%f", e);
 			SetDlgItemText (IDC_ENTROPY, szEntropy);
